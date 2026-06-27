@@ -17,3 +17,8 @@ t = u = v = "orange"
 
 print(p, q, r)
 print(t, u, v)
+
+# unpack a collection
+colors = ["yellow", "skyblue", "red"]
+e, f, g = colors
+print(e, f, g)
