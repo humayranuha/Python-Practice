@@ -22,3 +22,19 @@ print(t, u, v)
 colors = ["yellow", "skyblue", "red"]
 e, f, g = colors
 print(e, f, g)
+
+# global variable case
+n = "awesome"
+m = "java"
+
+def myFunc():
+    n = "fantastic"
+    global m 
+    m = "python"
+
+    print("Python is", n)
+
+myFunc()
+    
+print("Python is", n)
+print("I love", m)
