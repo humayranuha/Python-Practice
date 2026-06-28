@@ -34,3 +34,13 @@ x = "Humayra"
 y = "Nuha"
 name = x + " " + y
 print(name)
+
+# format string
+age = 23
+sentence = f"I am of age {age}"
+print(sentence)
+sentence1 = f"Give me {2 * 40} eggs"
+print(sentence1)
+price = 20
+sentence2 = f"The price is {price:.2f}"
+print(sentence2)
