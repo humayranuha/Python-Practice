@@ -20,3 +20,11 @@ print(string[2:5])
 print(string[:5])
 print(string[2:])
 print(string[-5: -2])
+
+# several methods
+b = "Hello, Python!!!"
+print(b.upper())
+print(b.lower())
+print(b.strip())
+print(b.replace("H", "N"))
+print(b.split(","))
