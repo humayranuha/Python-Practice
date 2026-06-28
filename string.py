@@ -28,3 +28,9 @@ print(b.lower())
 print(b.strip())
 print(b.replace("H", "N"))
 print(b.split(","))
+
+# concatenation
+x = "Humayra"
+y = "Nuha"
+name = x + " " + y
+print(name)
