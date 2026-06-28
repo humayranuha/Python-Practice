@@ -4,10 +4,6 @@ x = 5
 y = 3.14
 z = 1j # complex number: the imaginary part is expressed with 'j'
 
-print(type(x))
-print(type(y))
-print(type(z))
-
 a = float(x)
 b = int(y)
 c = complex(x)
