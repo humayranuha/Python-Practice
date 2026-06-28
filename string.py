@@ -14,3 +14,9 @@ if "type" in string:
 
 if "tom" not in string:
     print("'tom' not in string")
+
+#slicing
+print(string[2:5])
+print(string[:5])
+print(string[2:])
+print(string[-5: -2])
