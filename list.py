@@ -2,6 +2,7 @@
 list1 = ["apple", "banana", "cherry"]
 list2 = list(("apple", "banana")) # double round-brackets
 list3 = ["apple", "banana", "cherry", "apple"] # duplicate values allowed
+tropical = ["mango", "jackfruit"]
 print(list1)
 print(type(list2))
 print(len(list3))
@@ -16,4 +17,10 @@ print(list3[-3:-1])
 list3[3:4] = ["watermelon"]
 print(list3)
 list3.insert(4, "lichi")
+print(list3)
+
+# Adding items to the list
+list3.append("orange")
+print(list3)
+list3.extend(tropical)
 print(list3)
