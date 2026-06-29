@@ -12,3 +12,8 @@ print(list1[-1])
 print(list3[1:3])
 print(list3[-3:-1])
 
+# Changing list items
+list3[3:4] = ["watermelon"]
+print(list3)
+list3.insert(4, "lichi")
+print(list3)
