@@ -24,3 +24,13 @@ list3.append("orange")
 print(list3)
 list3.extend(tropical)
 print(list3)
+
+# Removing an item
+# list3.remove("banana") # for duplicate values, it removes the first occurrence
+# print(list3)
+# list3.pop() # last item gets removed, indexes can be used to remove any item
+# print(list3)
+# del list3[2]
+# print(list3)
+# list2.clear() # clears the list but list remains
+# print(list3)
