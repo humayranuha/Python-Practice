@@ -40,4 +40,18 @@ print(list3)
 newList = [x for x in list3 if x != "apple"]
 print("New List: ", newList)
 
+# List sorting
+newList.sort()
+print(newList)
+newList.sort(reverse=True) # descending sorting
+print(newList)
+numbers = [100, 50, 23, 65]
+def myFunc(n):
+    return abs(n - 50)
+
+numbers.sort(key=myFunc)
+print(numbers)
+
+newList.sort(key=str.lower)
+print(newList)
 
