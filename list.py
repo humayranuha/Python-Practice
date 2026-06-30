@@ -55,3 +55,13 @@ print(numbers)
 newList.sort(key=str.lower)
 print(newList)
 
+# Copying lists
+colors1 = ["blue", "green", "purple"]
+colors2 = colors1.copy()
+print(colors2)
+colors3 = list(colors2)
+print(colors3)
+colors4 = colors3[:] # slicing
+print(colors4)
+
+
