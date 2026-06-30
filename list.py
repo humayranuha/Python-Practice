@@ -34,3 +34,10 @@ print(list3)
 # print(list3)
 # list2.clear() # clears the list but list remains
 # print(list3)
+
+# List comprehension
+# newlist = [expression for item in iterable if condition == True]
+newList = [x for x in list3 if x != "apple"]
+print("New List: ", newList)
+
+
